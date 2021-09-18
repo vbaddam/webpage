@@ -11,7 +11,7 @@ function Info (){
             Dr. Hoda Eldardiry"
           </a>{" "} and <a className="links" href="https://ece.vt.edu/people/profile/boker">
             Dr. Almuatazbellah (Muataz) Boker"
-          </a>, my current research is based on the Reinforcement learning of/in(you should know if its in or of) control systems. The main objective is to develop the learning methods in order to be able to control lesser data in larger scale systems.
+          </a>, my current research is based on the Reinforcement learning in control systems. The main objective is to develop the learning methods in order to be able to control lesser data in larger scale systems.
         </p>
       </div>
     );
