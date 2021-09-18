@@ -1,0 +1,215 @@
+body {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  color: yellowgreen;
+  border: 5px solid white;
+  box-shadow:5px 5px 5px yellowgreen;
+}
+
+.home {
+  color: yellowgreen;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.navbar-links a {
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  color: white;
+}
+
+.toggle-button {
+  position:  absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: None;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  padding-top: .5rem;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+
+.card {
+  text-align: center;
+  background-image: url(https://i.gifer.com/8Iva.gif);
+}
+
+.img-header {
+  width: 10%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.fullname {
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Times;
+  margin-top: 100px;
+}
+
+.title {
+  color: greenyellow;
+  display: block;
+  font-size: 13px;
+  font-family: Times;
+}
+
+.extrabox {
+  width: 100%;
+  background: black;
+  box-sizing: border-box;
+  text-align: center;
+  border: 3px solid white;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
+.about-me {
+  color: greenyellow;
+  font-family: Times;
+  font-size: 18px;
+  text-align: center;
+}
+.links {
+  color: green;
+}
+
+.news-me {
+  margin-top: 3rem;
+  color: greenyellow;
+  font-family: Times;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+}
+
+#content {
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.marquee {
+  font-family: Times;
+  font-size: 15px;
+  color: greenyellow;
+}
+
+.extras-hr {
+  width: 90%;
+}
+
+.extras-gif {
+  width: 1.5rem;
+  height: 1rem;
+}
+
+
+
+@media (max-width: 700px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex; 
+  }
+}
+
+@media (min-width: 500px) {
+  .img-header {
+    width: 25%;
+  }
+}
+
+@media (min-width: 700px) {
+  .img-header {
+    width: 20%;
+  }
+}
+
+@media (min-width: 800px) {
+  .img-header {
+    width: 18%;
+  }
+}
+
+@media (min-width: 900px) {
+  .img-header {
+    width: 16%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-header {
+    width: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-header {
+    display: none;
+  }
+  .name-section {
+    margin-top: 3rem;
+  }
+}

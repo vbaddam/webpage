@@ -1,9 +1,8 @@
-import React from "react";
-import "../about.css";
-import New from "../images/New.gif";
+import './App.css'
+import New from './New.gif'
 
-export default function News() {
-  return (
+function News () {
+    return (
     <div>
       <h2 className="news-me"> Extras </h2>
       <div id="content"></div>
@@ -13,14 +12,14 @@ export default function News() {
             {" "}
             Joined as a Research Intern at Siemens (2021){" "}
           </a>{" "}
-          <img className="extras-gif" src={New} alt="" />
+          <img src={New} alt="" />
           <hr className="extras-hr" />
           <a className="marquee" href="vt.edu">
             {" "}
             Joined as a PhD student in computer science department at Virginia
             Tech (2020){" "}
           </a>{" "}
-          <img className="extras-gif" src={New} alt="" />
+          <img src={New} alt="" />
           <hr className="extras-hr" />
           <a className="marquee" href="vt.edu">
             {" "}
@@ -33,3 +32,5 @@ export default function News() {
     </div>
   );
 }
+
+export default News;
