@@ -7,22 +7,11 @@ function Info (){
   
         <h2 className="about-me">About Me</h2>
         <p className="about-me">
-          I am a PhD student of Computer Science department at the Virgina Tech. I
-          received my BTech degree in electrical engineering from National
-          Institute of Technology, Jaipur in 2019. My current research interests
-          combines the Reinforcement learning in control systems, developing
-          learning methods to learn the control with less data in large scale
-          systems.
-        </p>
-        <p className="about-me">
-          I am currently being advised by "
-          <a className="links" href="https://people.cs.vt.edu/hdardiry/">
+        Graduated from BTech in electrical engineering from the National Institute of Technology in Jaipur (2019), I am currently pursuing a phD in Computer Science at Virginia Tech university. Being monitored by <a className="links" href="https://people.cs.vt.edu/hdardiry/">
             Dr. Hoda Eldardiry"
-          </a>{" "}
-          and "
-          <a className="links" href="https://ece.vt.edu/people/profile/boker">
+          </a>{" "} and <a className="links" href="https://ece.vt.edu/people/profile/boker">
             Dr. Almuatazbellah (Muataz) Boker"
-          </a>
+          </a>, my current research is based on the Reinforcement learning of/in(you should know if its in or of) control systems. The main objective is to develop the learning methods in order to be able to control lesser data in larger scale systems.
         </p>
       </div>
     );
