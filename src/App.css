@@ -1,3 +1,12 @@
+@font-face{ 
+	font-family: 'arcaderegular';
+	src: url('arcade-webfont.eot');
+	src: url('arcade-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('arcade-webfont.woff') format('woff'),
+	     url('arcade-webfont.ttf') format('truetype'),
+	     url('arcade-webfont.svg#webfont') format('svg');
+}
+
 body {
   background-color: black;
 }
@@ -11,28 +20,33 @@ body {
   color: yellowgreen;
   border: 5px solid white;
   box-shadow:5px 5px 5px yellowgreen;
+  font-family: 'arcaderegular';
 }
 
 .home {
   color: yellowgreen;
   font-size: 20px;
   font-weight: bold;
+  font-family: 'arcaderegular';
 }
 
 .navbar-links ul {
   display: flex;
   margin: 0;
   padding: 0;
+  
 }
 
 .navbar-links li {
   list-style: none;
   margin: 0 1rem;
+  
 }
 
 .navbar-links a {
   color: yellowgreen;
   text-decoration: none;
+  
 }
 
 .navbar-links a:hover {
@@ -61,6 +75,7 @@ body {
 .card {
   text-align: center;
   background-image: url(https://i.gifer.com/8Iva.gif);
+  
 }
 
 .img-header {
@@ -74,6 +89,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+
 }
 
 .fullname {
@@ -82,13 +98,16 @@ body {
   font-size: 25px;
   font-family: Times;
   margin-top: 100px;
+  font-family: 'arcaderegular';
 }
 
 .title {
   color: greenyellow;
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   font-family: Times;
+  font-family: 'arcaderegular';
+  padding-bottom: .5rem;
 }
 
 .extrabox {
@@ -99,6 +118,7 @@ body {
   border: 3px solid white;
   padding-left: .2rem;
   padding-right: .2rem;
+  
 }
 
 .about-me {
@@ -106,9 +126,13 @@ body {
   font-family: Times;
   font-size: 18px;
   text-align: center;
+  font-family: 'arcaderegular';
+  padding-bottom: 1rem;
 }
 .links {
   color: green;
+  font-family: 'arcaderegular';
+  padding-bottom: 1rem;
 }
 
 .news-me {
@@ -118,17 +142,20 @@ body {
   font-size: 25px;
   text-align: center;
   position: relative;
+  font-family: 'arcaderegular';
 }
 
 #content {
   height: 100%;
   margin-bottom: 50px;
+  
 }
 
 .marquee {
   font-family: Times;
   font-size: 15px;
   color: greenyellow;
+  font-family: 'arcaderegular';
 }
 
 .extras-hr {
