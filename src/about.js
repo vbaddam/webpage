@@ -1,5 +1,5 @@
 import './App.css'
-import Vasanth_dp from './Vasanth_dp.jpg'
+import Vasanth_dp from './download (2).jpg'
 
 function About() {
   return (
