@@ -23,7 +23,7 @@ function News () {
           <hr className="extras-hr" />
           <a className="marquee" href="vt.edu">
             {" "}
-            Joined a MS student in computer science department at Virgina Tech
+            Joined as a MS student in computer science department at Virgina Tech
             (2019)){" "}
           </a>{" "}
           <hr className="extras-hr" />
