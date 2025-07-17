@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+// import { ThemeToggler } from 'gatsby-plugin-dark-mode' // Removed
 
 import "../styles/navbar.scss"
 import "../styles/include-media.scss"
@@ -52,6 +52,6 @@ class Navbar extends Component {
 }
 }
 
-export default Navbar;
+export default Navbar
 
 // <li><button onClick={() => scrollTo("#about")}>About</button></li>
