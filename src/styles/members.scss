@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import "./include-media.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+
+
+
+.about-section {
+    width: 50vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include media(">=tablet", "<desktop") {
+      align-items: center;
+    }
+    .content {
+      width: 50%;
+      @include media(">=phone", "<lgphone") {
+        width: 100%;
+      }
+      @include media(">=lgphone", "<tablet") {
+        width: 100%;
+      }
+      @include media(">=tablet", "<desktop") {
+        width: 100%;
+      }
+  
+      h1 {
+        font-size: 3rem;
+        line-height: 20px;
+        @include media(">=tablet", "<desktop") {
+          text-align: center;
+        }
+      }
+      p {
+        @include media(">=tablet", "<desktop") {
+          text-align: center;
+        }
+      }
+    }
+    .image-wrapper {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      object-fit: contain;
+      overflow: hidden;
+      @include media(">=phone", "<lgphone") {
+        width: 100%;
+      }
+      @include media(">=lgphone", "<tablet") {
+        width: 100%;
+      }
+      @include media(">=tablet", "<desktop") {
+        width: 100%;
+      }
+    }
+  }
+
+.card {
+    text-align: center;
+  }
+
+.grid {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    @include media(">=phone", "<lgphone") {
+        grid-template-columns: 1fr;
+      }
+      @include media(">=lgphone", "<tablet") {
+        grid-template-columns: 1fr;
+      }
+      @include media(">=tablet", "<desktop") {
+        grid-template-columns: 1fr 1fr;
+      }
+}

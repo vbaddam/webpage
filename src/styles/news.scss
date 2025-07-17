@@ -1,0 +1,59 @@
+@charset "utf-8";
+@import "./include-media.scss";
+
+.news-wrapper {
+    width: 80vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid yellowgreen;
+    box-shadow:5px 5px 5px yellowgreen;
+    h1 {
+        font-size: 3rem;
+        line-height: 20px;
+      @include media(">=phone", "<lgphone") {
+        font-size: 14px;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 16px;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 16px;
+      }
+    }
+    p {
+      width: 50%;
+      text-align: center;
+      overflow: hidden;
+      @include media(">=phone", "<lgphone") {
+        font-size: 12px;
+        width: 100%;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 12px;
+        width: 100%;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 14px;
+        width: 100%;
+      }
+    }
+    li {
+        width: 50%;
+        text-align: center;
+        overflow: hidden;
+        @include media(">=phone", "<lgphone") {
+          font-size: 12px;
+          width: 100%;
+        }
+        @include media(">=lgphone", "<tablet") {
+          font-size: 12px;
+          width: 100%;
+        }
+        @include media(">=tablet", "<desktop") {
+          font-size: 14px;
+          width: 100%;
+        }
+      }
+  }

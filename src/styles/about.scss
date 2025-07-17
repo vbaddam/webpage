@@ -1,0 +1,72 @@
+@charset "utf-8";
+@import "./include-media.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+
+
+.about-section {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  @include media(">=phone", "<lgphone") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=lgphone", "<tablet") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=tablet", "<desktop") {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .content {
+    width: 100%;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 1rem;
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1rem;
+      }
+
+    }
+    p {
+      font-size: 0.8rem;
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
+
+      }
+    }
+  }
+  .image-wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+  }
+}
+
+.social-icons {
+  margin-top: 20px;
+  img {
+    height: 2rem;
+    margin: 10px;
+  }}
